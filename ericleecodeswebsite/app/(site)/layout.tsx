@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
-import Navbar from "./components/Navbar";
+import Navbar from "../_components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default async function RootLayout({
         <header>
           <Navbar />
         </header>
-        <main className="w-[80%] mx-auto">{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );
