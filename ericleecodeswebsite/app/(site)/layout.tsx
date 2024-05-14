@@ -21,7 +21,7 @@ export default async function RootLayout({
         <header>
           <Navbar />
         </header>
-        <main className="py-20 w-[80%] mx-auto">{children}</main>
+        <main className="w-[80%] mx-auto">{children}</main>
       </body>
     </html>
   );
