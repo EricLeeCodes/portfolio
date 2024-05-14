@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { getPages } from "@/sanity/sanity-utils";
 import { Inter } from "next/font/google";
 import "../globals.css";
-import Link from "next/link";
+import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,34 +15,13 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  //pages
-
-  const pages = await getPages();
-  console.log("PAGES", pages);
-
   return (
     <html lang="en">
-      <body className={`${inter.className} max-w-3xl mx-auto py-10`}>
-        <header className="flex items-center justify-between">
-          <Link
-            href="/"
-            className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold"
-          >
-            Eric
-          </Link>
-          <div className="flex item-center gap-5 text-sm text-gray-600">
-            {pages.map((page) => (
-              <Link
-                key={page._id}
-                href={`/${page.slug}`}
-                className="hover:underline"
-              >
-                {page.title}
-              </Link>
-            ))}
-          </div>
+      <body className={`${inter.className} bg-darker`}>
+        <header>
+          <Navbar />
         </header>
-        <main className="py-20">{children}</main>
+        <main className="py-20 w-[80%] mx-auto">{children}</main>
       </body>
     </html>
   );
