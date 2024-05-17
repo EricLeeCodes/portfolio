@@ -5,7 +5,7 @@ async function Navbar() {
   const pages = await getPages();
 
   return (
-    <div className="w-[100%] mx-auto bg-darker py-6 px-32 fixed">
+    <div className="w-[100%] mx-auto bg-darker py-6 px-32 fixed z-20">
       <div className="flex item-center justify-between">
         <Link href="/" className="text-accent text-4xl font-bold">
           EricLeeCodes

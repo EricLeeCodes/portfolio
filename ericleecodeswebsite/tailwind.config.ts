@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        levitate: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+      },
+      animation: {
+        levitate: "levitate 3s ease-in-out infinite",
+      },
       colors: {
         darker: "#050300",
         lighter: "#cacfd3",
