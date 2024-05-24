@@ -5,9 +5,9 @@ import WelcomePage from "../_components/Welcome";
 
 export default async function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="overflow-x-hidden">
       <NavbarServer />
-      <div className="container">
+      <div>
         <WelcomePage />
         <Hero />
         <ProjectSection />
