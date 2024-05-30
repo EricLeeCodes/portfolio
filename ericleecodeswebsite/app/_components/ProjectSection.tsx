@@ -6,9 +6,11 @@ async function ProjectSection() {
   const projects = await getProjects();
 
   return (
-    <section id="projects" className=" bg-darker bg-cover">
+    <section id="projects" className=" bg-darker bg-cover pt-10">
       <div className="w-[80%] mx-auto">
-        <h2 className="font-bold text-gray-700 text-3xl">My Projects</h2>
+        <h2 className="flex justify-center font-bold text-gray-700 text-3xl">
+          My Projects
+        </h2>
         <p className="mt-3 text-xl text-gray-600">
           Hey everyone! Check out my projects!
         </p>
