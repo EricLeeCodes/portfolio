@@ -1,3 +1,4 @@
+import Footer from "../_components/Footer";
 import Hero from "../_components/Hero";
 import NavbarServer from "../_components/NavbarServer";
 import ProjectSection from "../_components/ProjectSection";
