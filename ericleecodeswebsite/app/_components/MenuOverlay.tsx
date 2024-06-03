@@ -1,5 +1,5 @@
 import Link from "next/link";
-import NavbarServer from "./NavbarServer";
+import NavbarServer from "./NavServer";
 import { Page } from "@/types/Page";
 
 interface MenuOverlayProps {

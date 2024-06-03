@@ -1,5 +1,3 @@
-import Footer from "@/app/_components/Footer";
-import NavbarServer from "@/app/_components/NavbarServer";
 import { getProject } from "@/sanity/sanity-utils";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
@@ -16,7 +14,6 @@ export default async function Project({ params }: Props) {
 
   return (
     <div>
-      <NavbarServer />
       <div className="flex flex-col items-center justify-center bg-darker text-white">
         {/* Title */}
         <header className="text-center mb-8">

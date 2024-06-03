@@ -2,7 +2,7 @@ import { fetchPages } from "../lib/fetchPages";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-export default async function NavbarServer() {
+export default async function NavServer() {
   const pages = await fetchPages();
   return (
     <>

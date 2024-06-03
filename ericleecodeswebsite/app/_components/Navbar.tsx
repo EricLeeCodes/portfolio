@@ -14,7 +14,7 @@ function Navbar({ pages = [] }: NavbarProps) {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed border border-gray-800 top-0 left-0 right-0 z-50 bg-darker">
+    <nav className="fixed border border-gray-800 top-0 left-0 right-0 z-50 bg-darker w-[100%]">
       <div className="flex container flex-wrap items-center justify-between mx-auto py-2 px-4 lg:py-4">
         <Link
           href="/"
