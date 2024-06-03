@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { Page } from "@/types/Page";
-import {} from "@heroicons/react/24/solid";
+import { library } from "@fortawesome/fontawesome-svg-core";
 
 interface NavbarProps {
   pages?: Page[];
 }
 
 function Footer({ pages = [] }: NavbarProps) {
+  library.add(faLinkedin);
   return (
     <footer className="fixed w-[100%] mx-auto bottom-0 z-20 h-24 md:h-20 md:w-auto border border-gray-800 text-lighter py-4 md:py-8">
       {/* Links */}
@@ -25,7 +26,9 @@ function Footer({ pages = [] }: NavbarProps) {
       </div>
       {/* Socials */}
       <div>
-        <a>{/* LinkedIn */}</a>
+        <a>
+          <FontAwesomeIcon icon={faLinkedin} />;
+        </a>
         <a>{/* Twitter */}</a>
         <a>{/* GitHub */}</a>
       </div>
