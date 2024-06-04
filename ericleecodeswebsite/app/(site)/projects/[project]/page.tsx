@@ -37,7 +37,7 @@ export default async function Project({ params }: Props) {
               href="/"
               title="Home"
               rel="noopener noreferrer"
-              className="flex justify-center bg-gray-100 rounded-lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-accentTwo hover:text-pink-100 transition w-[125px]"
+              className="flex justify-center bg-gray-100 rounded-lg text-darker font-bold py-3 px-4 whitespace-nowrap hover:bg-accentTwo hover:text-pink-100 transition w-[125px]"
             >
               Home
             </a>
@@ -46,7 +46,7 @@ export default async function Project({ params }: Props) {
               title="View Project"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-center bg-gray-100 rounded-lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-accent hover:text-pink-100 transition w-[125px]"
+              className="flex justify-center bg-gray-100 rounded-lg text-darker font-bold py-3 px-4 whitespace-nowrap hover:bg-accent hover:text-pink-100 transition w-[125px]"
             >
               View Project
             </a>
