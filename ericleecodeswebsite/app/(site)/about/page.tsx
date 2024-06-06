@@ -4,9 +4,9 @@ import Link from "next/link";
 export default async function About() {
   return (
     <div className="text-lg mt-14 text-lighter bg-darker pb-32">
-      <div className="flex justify-center text-4xl font-bold py-10 ">
+      <h1 className="flex justify-center text-4xl font-bold py-10 ">
         About Me
-      </div>
+      </h1>
       <div className="mx-10 md:mx-48">
         <p>
           <span> </span>I started my coding journey during the global pandemic
