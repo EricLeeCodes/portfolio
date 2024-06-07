@@ -9,17 +9,16 @@ export default async function About() {
       </h1>
       <div className="mx-10 md:mx-48">
         <p>
-          <span> </span>I started my coding journey during the global pandemic
-          in the year 2021. I loved creating things and that's why I got my
-          chemistry degree, however, most of the biochemical facilities were
-          closed or were focused on specialized research during that time. I was
-          wondering how I could combine my passion for creation and do it at the
-          comfort of my home. That's when I decided to write my first code in
-          C#. I wrote "Hello World" for the first time and saw my code come to
-          life!
+          I started my coding journey during the global pandemic in the year
+          2021. I loved creating things and that&apos;s why I got my chemistry
+          degree, however, most of the biochemical facilities were closed or
+          were focused on specialized research during that time. I was wondering
+          how I could combine my passion for creation and do it at the comfort
+          of my home. That&apos;s when I decided to write my first code in C#. I
+          wrote "Hello World" for the first time and saw my code come to life!
         </p>
         <p className="mt-4">
-          I wasn't too sure what language to start off with but I chose C#
+          I wasn&apos;t too sure what language to start off with but I chose C#
           because of how versatile it was. I saw that Microsoft was expanding
           the .NET ecosystem for website creation and I also saw that Unity uses
           C# for game development as well. I thought I could kill two birds with
@@ -89,7 +88,7 @@ export default async function About() {
               className="underline text-accent"
               href="https://itch.io/jam/gmtk-jam-2022"
             >
-              2022 Game Maker's Tookit: Roll of the Dice
+              2022 Game Maker&apos;s Tookit: Roll of the Dice
             </a>{" "}
           </span>
           game jam to test out my skills. This was the first time I could join a
@@ -165,7 +164,7 @@ export default async function About() {
           <p className="my-4 text-base">My Lighthouse Labs Diploma</p>
         </div>
         <p>
-          I really love what I do and I'm having fun every day learning
+          I really love what I do and I&apos;m having fun every day learning
           something new! Feel free to shoot me a message about anything - even
           just to say hi!
         </p>

@@ -28,7 +28,7 @@ function Hero() {
 
       <div className="flex flex-col justify-center items-center text-6xl font-semibold h-1/3 md:w-1/3 pt-10 md:pt-0">
         <p>
-          I'm a <span> </span>
+          I&apos;m a <span> </span>
         </p>
         <p>
           <HeroDescription />
