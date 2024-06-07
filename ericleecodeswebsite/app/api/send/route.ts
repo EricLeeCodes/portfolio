@@ -1,14 +1,17 @@
+import ContactMe from "@/app/emails/ContactMe";
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-export async function GET() {
-  const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY);
+
+export async function POST(request: Request) {
+  const { email, firstName } = await request.json();
   try {
     const { data } = await resend.emails.send({
-      from: "ericleecodes@gmail.com",
-      to: "ericleecodes@gmail.com",
-      subject: "Hello from Portfolio",
-      html: "<h1>Hello from Porfolio test</h1>",
+      from: { email },
+      to: email,
+      subject: "EricLeeCodes Contact",
+      react: ContactMe({ firstName }),
     });
     return NextResponse.json({ data });
   } catch (error) {

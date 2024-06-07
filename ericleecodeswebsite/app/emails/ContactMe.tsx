@@ -1,7 +1,11 @@
 import { Button, Html } from "@react-email/components";
 import * as React from "react";
 
-export default function Welcome() {
+type ContactMeProps = {
+  firstName: string;
+};
+
+export default function ContactMe({ firstName }: ContactMeProps) {
   return (
     <Html>
       <Button

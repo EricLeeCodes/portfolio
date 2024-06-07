@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "email": "email dev"
+    "email": "email dev --dir app/emails"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
