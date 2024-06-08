@@ -45,7 +45,7 @@ function WelcomePage() {
           speed={50}
           repeat={1}
           cursor={false}
-          className="text-white text-7xl font-bold "
+          className="text-white text-5xl md:text-7xl font-bold "
         />
       </h1>
     </div>
