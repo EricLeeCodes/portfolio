@@ -15,7 +15,8 @@ export default async function About() {
           were focused on specialized research during that time. I was wondering
           how I could combine my passion for creation and do it at the comfort
           of my home. That&apos;s when I decided to write my first code in C#. I
-          wrote "Hello World" for the first time and saw my code come to life!
+          wrote &quot;Hello World&quot; for the first time and saw my code come
+          to life!
         </p>
         <p className="mt-4">
           I wasn&apos;t too sure what language to start off with but I chose C#
