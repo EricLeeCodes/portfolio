@@ -36,7 +36,7 @@ function WelcomePage() {
 
   return (
     <div
-      className={`flex items-center justify-center h-screen w-screen fixed z-50 overflow-hidden bg-darker transition-opacity duration-1000 ${isFading ? "opacity-0" : "opacity-100"}`}
+      className={`flex items-center justify-center h-screen w-[100%] fixed z-50 overflow-hidden bg-darker transition-opacity duration-1000 ${isFading ? "opacity-0" : "opacity-100"}`}
     >
       <h1>
         <TypeAnimation
@@ -45,7 +45,7 @@ function WelcomePage() {
           speed={50}
           repeat={1}
           cursor={false}
-          className="text-white text-7xl font-bold"
+          className="text-white text-7xl font-bold "
         />
       </h1>
     </div>

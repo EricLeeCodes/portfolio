@@ -15,13 +15,13 @@ function Hero() {
           I&apos;m <span className="text-accent">Eric</span>!
         </p>
       </div>
-      <div className="flex flex-col justify-center items-center h-1/3 md:w-1/3">
+      <div className="flex flex-col justify-center items-center h-1/3 mt-5 md:w-1/3">
         <Image
           src={profilePic}
           alt="Eric"
           className="object-cover rounded-full animate-levitate w-[50%] md:w-full"
         />
-        <div className="h-1/4 z-10">
+        <div className="z-10">
           <HeroButtons />
         </div>
       </div>
