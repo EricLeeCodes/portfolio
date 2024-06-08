@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowDownTrayIcon, ArrowDownIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 function HeroButtons() {
   const handleScrollToProjects = () => {
@@ -29,6 +30,12 @@ function HeroButtons() {
           Resume
         </button>
       </a>
+      <Link
+        href="/about"
+        className="flex items-center px-[100%] md:px-5 py-2 rounded-full border-2 border-accentTwo font-bold text-accentTwo hover:text-slate-200 hover:border-slate-200 transition gap-2"
+      >
+        About Me
+      </Link>
     </div>
   );
 }
