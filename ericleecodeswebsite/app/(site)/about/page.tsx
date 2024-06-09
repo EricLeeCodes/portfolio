@@ -9,22 +9,21 @@ export default async function About() {
       </h1>
       <div className="mx-10 md:mx-48">
         <p>
-          I started my coding journey during the global pandemic in the year
-          2021. I loved creating things and that&apos;s why I got my chemistry
-          degree, however, most of the biochemical facilities were closed or
-          were focused on specialized research during that time. I was wondering
-          how I could combine my passion for creation and do it at the comfort
-          of my home. That&apos;s when I decided to write my first code in C#. I
-          wrote &quot;Hello World&quot; for the first time and saw my code come
-          to life!
+          I started my coding journey in 2021 during the global pandemic. I
+          loved creating things and that&apos;s why I got my chemistry degree.
+          However, most of the biochemical facilities were closed or were
+          focused on specialized research during that time. As a result, I
+          focused on a way to combine my passion for creation right at home.
+          That&apos;s when I decided to write &quot;Hello World&quot; in C# for
+          the first time and saw my code come to life!
         </p>
         <p className="mt-4">
-          I wasn&apos;t too sure what language to start off with but I chose C#
-          because of how versatile it was. I saw that Microsoft was expanding
-          the .NET ecosystem for website creation and I also saw that Unity uses
-          C# for game development as well. I thought I could kill two birds with
-          one stone and decided to go fully for it by signing up for IAmTimCorey
-          courses and getting several certificates from it!{" "}
+          At first, I chose C# because of how versatile it was. I saw that
+          Microsoft was expanding the .NET ecosystem for website creation and I
+          also saw that Unity uses C# for game development as well. I thought I
+          could kill two birds with one stone and decided to go fully for it by
+          signing up for IAmTimCorey courses and getting several certificates
+          from it!{" "}
         </p>
         <p className="mt-4"> (Check them out below!): </p>
         <div className="flex flex-col gap-4 my-4 text-base">
@@ -92,11 +91,11 @@ export default async function About() {
               2022 Game Maker&apos;s Tookit: Roll of the Dice
             </a>{" "}
           </span>
-          game jam to test out my skills. This was the first time I could join a
-          team and practice using git as well as learning how to not break a
-          collaborative project. We teamed up with two artists and one other
-          head developer. I had a lot of fun with this and realized I had a lot
-          more to learn!
+          game jam to test out my skills. This was the first time I joined a
+          team and practiced using git on a collaborative project. We teamed up
+          with two artists and one other head developer. With the help of two
+          artists and one other head developer, we had a wonderful time with the
+          following project:
         </p>
         <p className="mt-4">(Project): </p>
         <div className="flex justify-center">
@@ -115,8 +114,8 @@ export default async function About() {
           </a>
         </div>
         <p className="mt-4">
-          Shortly after, I became obsessed with making games and made a few mini
-          projects that you can play here below:
+          Shortly after, I became obsessed with making games and made a few that
+          you can play here below:
         </p>
 
         <div className="flex flex-col my-4">
@@ -147,11 +146,10 @@ export default async function About() {
         </div>
 
         <p>
-          Right after making a couple of games, God brought me to Canada where I
-          got married to my long-distance girlfriend and happily settled in
-          Surrey, BC. Here, I decided to focus my skills in web development and
-          joined Lighthouse Labs where I successfully got a diploma for Web
-          Development!:
+          Soon after, God brought me to Canada where I got married to my
+          long-distance girlfriend and happily settled in Surrey, BC. Here, I
+          decided to focus my skills in web development and joined Lighthouse
+          Labs where I successfully got a diploma for Web Development!:
         </p>
         <div className="flex flex-col justify-center items-center mt-4 ">
           <Image
@@ -165,9 +163,8 @@ export default async function About() {
           <p className="my-4 text-base">My Lighthouse Labs Diploma</p>
         </div>
         <p>
-          I really love what I do and I&apos;m having fun every day learning
-          something new! Feel free to shoot me a message about anything - even
-          just to say hi!
+          I really love what I do and learn something new every day! Feel free
+          to shoot me a message about anything - even just to say hello!
         </p>
         <div className="flex justify-center items-center my-4">
           <Link href="/contact">
