@@ -15,7 +15,7 @@ async function ProjectSection() {
           My Projects
         </h2>
         <p className="flex items-center justify-center text-xl text-lighter my-5 pb-5">
-          Hey everyone! Check out my projects!
+          Hey, everyone! Check out my projects!
         </p>
 
         <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
