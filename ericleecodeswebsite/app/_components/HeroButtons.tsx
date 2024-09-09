@@ -21,7 +21,7 @@ function HeroButtons() {
         Projects
       </button>
       <a
-        href="/EricLeeResume.pdf"
+        href="/EricLeeSeptemberResume.pdf"
         download="Eric Lee Resume"
         className="px-[90%] md:px-5 py-2 rounded-full border-2 border-accent text-accent font-bold hover:text-slate-200 hover:border-slate-200 transition"
       >
