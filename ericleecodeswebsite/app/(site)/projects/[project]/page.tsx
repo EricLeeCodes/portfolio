@@ -14,7 +14,7 @@ export default async function Project({ params }: Props) {
 
   return (
     <div>
-      <div className="flex flex-col items-center justify-center bg-darker text-white">
+      <div className="flex flex-col items-center justify-center bg-darker text-white pb-[100px]">
         {/* Title */}
         <header className="text-center mb-8">
           <h1 className="bg-clip-text text-7xl drop-shadow font-extrabold pt-[25%]">
