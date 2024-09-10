@@ -1,6 +1,6 @@
 import { defineConfig } from "sanity";
-import { structureTool } from "sanity/structure";
-import schemas from "@/sanity/schemas";
+import { deskTool } from "sanity/desk";
+import schemas from "./sanity/schemas";
 
 const config = defineConfig({
   projectId: "kv2q6jn7",
@@ -8,7 +8,7 @@ const config = defineConfig({
   title: "EricLeeCodes Site",
   apiVersion: "2024-05-06",
   basePath: "/admin",
-  plugins: [structureTool()],
+  plugins: [deskTool()],
   schema: { types: schemas },
 });
 
