@@ -14,10 +14,10 @@ export default async function Work({ params }: Props) {
 
   return (
     <div>
-      <div className="flex flex-col items-center justify-center bg-darker text-white pb-[100px]">
+      <div className="flex flex-col items-center justify-center bg-darker text-white pb-[120px]">
         {/* Title */}
         <header className="text-center mb-8">
-          <h1 className="bg-clip-text text-7xl drop-shadow font-extrabold pt-[25%]">
+          <h1 className="bg-clip-text text-3xl md:text-7xl drop-shadow font-extrabold pt-[40%] md:pt-[25%]">
             {work.name}
           </h1>
         </header>
