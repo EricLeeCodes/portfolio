@@ -5,9 +5,9 @@ import Link from "next/link";
 
 function HeroButtons() {
   const handleScrollToProjects = () => {
-    const projectsSection = document.getElementById("projects");
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth" });
+    const worksSection = document.getElementById("works");
+    if (worksSection) {
+      worksSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -18,7 +18,7 @@ function HeroButtons() {
         className="flex items-center px-[90%] md:px-5 py-2 rounded-full border-2 border-accentTwo font-bold text-accentTwo hover:text-slate-200 hover:border-slate-200 transition gap-2"
       >
         <ArrowDownIcon className="h-5 w-5" />
-        Projects
+        Experience
       </button>
       <a
         href="/EricLeeSeptemberResume.pdf"
