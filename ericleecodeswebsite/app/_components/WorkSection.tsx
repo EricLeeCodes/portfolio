@@ -6,10 +6,7 @@ async function WorkSection() {
   const works = await getWorks();
 
   return (
-    <section
-      id="works"
-      className=" bg-darker bg-cover mb-[100px] pt-[20px] h-[60vh]"
-    >
+    <section id="works" className=" bg-darker bg-cover mb-[100px] py-[40px]">
       <div className="w-[80%] mx-auto pt-10">
         <h2 className="flex justify-center font-bold text-white text-5xl">
           My Works

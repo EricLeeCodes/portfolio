@@ -6,7 +6,7 @@ async function ProjectSection() {
   const projects = await getProjects();
 
   return (
-    <section id="projects" className=" bg-darker bg-cover mb-[178px] h-[60vh]">
+    <section id="projects" className=" bg-darker bg-cover mb-[178px] py-[40px]">
       <div className="w-[80%] mx-auto pt-10">
         <h2 className="flex justify-center font-bold text-white text-5xl">
           My Projects
